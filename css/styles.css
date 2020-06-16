@@ -70,6 +70,13 @@ h1,h1,h3,h4,h5,h6 {
     background-size: cover;
 }
 
+#heroContact {
+    background-image: url("../img/contact.jpg");
+    width: 100%;
+    height: 780px;
+    background-size: cover;
+}
+
 #heroBlog {
     background-image: url("../img/letters.jpg");
     width: 100%;
@@ -326,6 +333,55 @@ select {
 .blogPost p {
     padding-right: 6px;
 }
+
+/* Contact */
+
+#contact {
+    text-align: center;
+    width: 65%;
+    margin: auto;
+}
+
+
+#contact input {
+    width: 300px;
+    margin: auto;
+    display: block;
+    text-align: center;
+    border-bottom: 1px solid #000;
+}
+
+#contact input::placeholder {
+    font-family: "Raleway", sans-serif;
+    color: #000;
+    font-weight: 600;
+    
+}
+
+.w3-half input:hover {
+    background-color: rgba(0, 0, 0, .08);
+}
+
+#message {
+    margin: auto;
+    margin-bottom: 20px;
+    width: 715px;
+    height: 300px;
+    border: 2px solid #000;
+
+}
+
+#submitMessage {
+    background: #4d4d4d;
+    color: #fff;
+    height: 35px;
+    margin-bottom: 50px;
+}
+
+#submitMessage:hover {
+    background: #808080;
+}
+
 
 
 /* =================== Footer ======================= */
