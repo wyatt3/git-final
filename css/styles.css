@@ -1,0 +1,162 @@
+/*
+BATC Web Dessentials
+Colors: #808080, #606061, #fff, #d4d4d4
+Font: font-family: "Raleway", sans-serif;
+*/
+
+/* ====================  General ======================== */
+
+body {
+    font-family: "Raleway", sans-serif;
+    font-size: 16px;
+}
+
+/* ===================== Global ========================= */
+
+h1,h1,h3,h4,h5,h6 {
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    font-weight: bold;
+}
+
+/*  ===================== Nav ==========================*/
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: auto;
+    background-color: #000;
+    opacity: 0.8;
+}
+
+.navbar ul li {
+    float: left;
+    font-family: "Raleway", sans-serif;
+}
+
+.navbar .login ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.navbar ul li a {
+    display: block;
+    color: #808080;
+    text-align: center;
+    padding: 14px 16px 14px 16px;
+    text-decoration: none;
+}
+
+.navbar ul li a:hover {
+    color: #fff;
+}
+
+/* ======================= Modal ============================= */
+
+.modalDialog {
+    position: fixed;
+    font-family: "Raleway", sans-serif;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(0,0,0,0.8);
+    z-index: 99999;
+    opacity: 0;
+    -webkit-transition: opacity 400ms ease-in;
+    -moz-transition: opacity 400ms ease-in;
+    transition: opacity 400ms ease-in;
+    pointer-events: none;
+}
+
+.modalDialog:target {
+    opacity: 1;
+    pointer-events: auto;
+}
+
+.modalDialog > div {
+    width: 500px;
+    position: relative;
+    margin: 10% auto;
+    background: #fff;
+}
+
+.close {
+    background: #606061;
+    color: #fff;
+    line-height: 25px;
+    position: absolute;
+    right: -12px;
+    text-align: center;
+    top: -10px;
+    width: 24px;
+    text-decoration: none;
+    font-weight: bold;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    border-radius: 12px;
+    -webkit-box-shadow: 1px 1px 3px #000;
+    -moz-box-shadow: 1px 1px 3px #000;
+    box-shadow: 1px 1px 3px #000;
+    
+}
+
+.close:hover {
+    background: #808080;
+}
+
+/* ============== Forms ================= */
+
+.login {
+    font-family: "Raleway", sans-serif;
+    width: 500px;
+    padding: 30px;
+    background: #fff;
+    margin: 50px auto;
+}
+
+.login h2 {
+    background: #4d4d4d;
+    text-transform: uppercase;
+    font-family: "Raleway", sans-serif;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 100;
+    padding: 20px;
+    margin: -30px -30px 30px -30px;
+}
+
+/* =================== Footer ======================= */
+
+footer {
+    margin-top:25px;
+}
+footer ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: auto;
+    background-color: #000;
+    opacity: 0.8;
+}
+
+footer ul li {
+    float: left;
+    font-family: "Raleway", sans-serif;
+}
+
+footer ul li a,
+footer ul li {
+    display: block;
+    color: #808080;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+footer ul li a:hover {
+    color: #fff;
+}
