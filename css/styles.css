@@ -286,6 +286,41 @@ select {
     width: 85%;
 }
 
+/* Blog */
+
+.blogPost {
+    width: 900px;
+    margin: auto;
+    margin-bottom: 40px;
+    border: 2px solid #000;
+    overflow: hidden;
+    
+}
+
+.blogPost img {
+    float: left;
+    padding: 5px 20px 10px 5px;
+}
+
+.blogPost ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding-right: 15px;
+}
+
+.blogPost ul {
+    display: block;
+    width: 750px;
+    padding:3px;
+    margin:3px;
+    border-bottom: 1px solid #000;
+}
+
+.blogPost p {
+    padding-right: 6px;
+}
+
+
 /* =================== Footer ======================= */
 
 footer {
