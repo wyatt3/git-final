@@ -70,6 +70,13 @@ h1,h1,h3,h4,h5,h6 {
     background-size: cover;
 }
 
+#heroBlog {
+    background-image: url("../img/letters.jpg");
+    width: 100%;
+    height: 780px;
+    background-size: cover;
+}
+
 h1 {
     color: #fff;
     padding: 100px;
